@@ -38,6 +38,11 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 @media screen and (min-width: 1024px){
 	.nav > li {padding:40px 5px}
 }
+asside {height: 100%}
+
+@media screen and (min-width: 770px){
+	#sidebar { position: fixed;margin-top: -20px}
+}
 
 
 html { position: relative; min-height: 100%}

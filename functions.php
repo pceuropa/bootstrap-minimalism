@@ -30,4 +30,12 @@ function my_jquery3() {
 // Register Custom Navigation Walker
 require_once('inc/wp_bootstrap_navwalker.php');
 load_theme_textdomain( 'pceuropa', get_template_directory() . '/languages' );
+
+
+function categoryLink() {
+	$categories = get_the_category();
+	if ( ! empty( $categories ) ) {
+		echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+	}
+}
 ?>

@@ -1,10 +1,6 @@
-<hr>
-
 <footer>
-	<p>&copy; Rafal Marguzewicz 2017 | <span class="fb-like" data-href="https://www.facebook.com/PCEUROPA/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span></p>
+	<p>&copy; Rafal Marguzewicz 2017</p>
 </footer>
-
-</div><!--/.container-->
 
 <?php wp_footer(); ?>
 
@@ -26,7 +22,3 @@
 }(document, 'script', 'facebook-jssdk'));
 
 </script>
-
-
-</body>
-</html>

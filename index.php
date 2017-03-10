@@ -2,10 +2,12 @@
 
 <div class="container">
 
+
+
 <div class="row row-offcanvas row-offcanvas-right">
 
-	<article class="col-xs-12 col-sm-9">
-
+<article class="col-xs-12 col-sm-9">
+<?php require_once('nav.php');?>
 		<p class="pull-right visible-xs">
 			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar' ); ?> >></span></button>
 		</p>
@@ -19,29 +21,31 @@
 		<div class="clearfix"></div>
 		<?php endwhile; else: ?>
 		
-		<h1 class="entry-title"><?php _e( 'Page not found' ); ?></h1>
-		<?php wp_link_pages(); ?>
-		
-		<div class="entry-content">
+			<h1><?php _e( 'Page not found' ); ?></h1>
+			<?php wp_link_pages(); ?>
 			<?php get_search_form(); ?>
-		</div>
-
 
 		<?php endif; ?> 
-		<?php next_posts_link(); ?><?php previous_posts_link(); ?>
 		
-		<p class="pull-right visible-xs">
-			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar' ); ?> >></span></button>
-		</p>
+		<div class="well pull-left"><?php previous_posts_link(); ?></div>
+		<span class="fb-like" data-href="https://www.facebook.com/PCEUROPA/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span>
+		<div class="well pull-right" ><?php next_posts_link(); ?></div>
+<hr>
+
+</article>
 	
-	</article>
-	
-	
-<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-<?php get_sidebar(); ?>
-</div><!--/span-->
-</div><!--/row-->
+	<asside class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+		<div id="sidebar">
+		<?php get_sidebar(); ?>
+		</div>
+	</asside>
+</div><!--/row-offcanvas-->
+
+
+</div><!--/.container-->
 
 <?php get_footer(); ?>
 
-michal.kufel@lemisoft.pl
+</body>
+</html>
+
