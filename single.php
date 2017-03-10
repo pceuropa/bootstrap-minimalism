@@ -5,9 +5,9 @@
 <div class="row row-offcanvas row-offcanvas-right">
 
 <div class="col-xs-12 col-sm-9">
-<p class="pull-right visible-xs">
-	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-</p>
+
+<p class="pull-right visible-xs"><button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar'); ?></button></p>
+
 <article>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<h1><?php the_title(); ?></h1>
@@ -27,7 +27,7 @@
 
 	<?php endwhile; else: ?>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'pceuropa' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Page not found'); ?></h1>
 	</header>
 
 	<div class="entry-content">
