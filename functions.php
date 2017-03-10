@@ -16,15 +16,14 @@ function my_jquery3() {
 
 
 
- register_sidebar(
-            array(
-            'name' => __( 'Left Sidebar', 'pceuropa' ),
-	'id' => 'sidebar-1',
+ register_sidebar([
+            'name' => __( 'Right Sidebar', 'pceuropa' ),
+			'id' => 'sidebar-1',
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
             'after_widget' => '</aside>',
             'before_title' => '<h3>',
             'after_title' => '</h3>',
-        ));
+        ]);
 		
 		
 // Register Custom Navigation Walker
