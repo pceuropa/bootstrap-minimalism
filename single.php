@@ -13,10 +13,10 @@
 	<h1><?php the_title(); ?></h1>
 
 	<dl class="dl-horizontal">
-		<dt class="text-muted"><?php _e( 'Published by', 'pceuropa' ); ?>: </dt><dd><?php the_author(); ?></dd>
-		<dt class="text-muted"><?php _e( 'Date of publication', 'pceuropa' ); ?>:</dt> <dd><time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time></dd>
-		<dt class="text-muted"><?php _e( 'Categories', 'pceuropa' ); ?>:</dt><dd><?php the_category(' &bull; '); ?> </footer></dd>
-		<dt class="text-muted"><?php _e( 'Tags', 'pceuropa' ); ?>:</dt><dd><?php the_tags('',' • ','<br />'); ?> </footer></dd>
+		<dt class="text-muted"><?php _e( 'Author'); ?>: </dt><dd><?php the_author(); ?></dd>
+		<dt class="text-muted"><?php _e( 'Published'); ?>:</dt> <dd><time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time></dd>
+		<dt class="text-muted"><?php _e( 'Categories'); ?>:</dt><dd><?php the_category(' &bull; '); ?> </footer></dd>
+		<dt class="text-muted"><?php _e( 'Tags'); ?>:</dt><dd><?php the_tags('',' • ','<br />'); ?> </footer></dd>
 		
 	</dl>
 
