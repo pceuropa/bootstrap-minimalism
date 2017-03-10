@@ -1,0 +1,35 @@
+# Copyright (C) 2015 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+# Marguzewicz <info@pceuropa.net>, 2016.
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Polish <info@pceuropa.net>\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"Last-Translator: Marguzewicz <info@pceuropa.net>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pl_PL\n"
+
+msgid "Published by"
+msgstr "Opublikowane przez"
+
+msgid "Date of publication"
+msgstr "Data publikacji"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Tags"
+msgstr "Tagi"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
