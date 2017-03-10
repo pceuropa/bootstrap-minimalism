@@ -1,5 +1,5 @@
 /*!
- * minimalism-wordpress v1.0.0
+ * bootstrap-minimalizm v0.5.1
  * Homepage: https://pceuropa.net/css
  * Copyright 2016-2017 Rafal Marguzewicz
  * Licensed under MIT
@@ -23,14 +23,12 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 .navbar-brand {padding: 0; }
 
 .breadcrumb {padding: 7px 15px;background-color: #f1f5f6;}
-.h1, h1 {
-	font-size: 28px;
-}
-.h2, h2 {
-	font-size: 20px;
-}
-.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
-	font-size: 50%;
+.h1, h1 {font-size: 28px;}
+.h2, h2 {font-size: 20px;}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {font-size: 50%;}
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 @media screen and (max-dsevice-width: 640px){
 	.nav > li {border-bottom: solid 1px #ccc;}
