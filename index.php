@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
 <div class="container">
-
-
-
 <div class="row row-offcanvas row-offcanvas-right">
 
 <article class="col-xs-12 col-sm-9">
@@ -28,7 +25,6 @@
 		<?php endif; ?> 
 		
 		<div class="well pull-left"><?php previous_posts_link(); ?></div>
-		<span class="fb-like" data-href="https://www.facebook.com/PCEUROPA/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span>
 		<div class="well pull-right" ><?php next_posts_link(); ?></div>
 <hr>
 

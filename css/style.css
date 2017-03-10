@@ -41,14 +41,14 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 asside {height: 100%}
 
 @media screen and (min-width: 770px){
-	#sidebar { position: fixed;}
+	#sidebar { position: fixed;margin-top:30px}
 }
 
 .widget_categories .screen-reader-text {
 	display:none
 }
 
-#cat {
+#cat, #s {
   display: block;
   width: 100%;
   height: 34px;

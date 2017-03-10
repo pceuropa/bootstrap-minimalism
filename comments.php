@@ -9,14 +9,14 @@
  'author' =>
     '<div class="form-group">
         <div class="input-group">
-          <div class="input-group-addon">' . __( 'Name', 'pceuropa' ) . ' *</div>
+          <div class="input-group-addon">' . __( 'Name') . ' *</div>
           <input class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .'" size="30" />
 </div>',
 
 'email' =>
     '<div class="input-group">
-          <div class="input-group-addon">' . __( 'Email', 'pceuropa' ) . '</div>
-          <input class="form-control" id="exampleInputEmail1" name="email" type="email" placeholder="' . __( 'nie bedzie publikowany', 'pceuropa' ) . '" value="' . esc_attr(  $commenter['comment_author_email']) .'"size="30" />
+          <div class="input-group-addon">' . __( 'Email') . ' *</div>
+          <input class="form-control" id="exampleInputEmail1" name="email" type="email" placeholder="' . __( 'Your email address will not be published.' ) . '" value="' . esc_attr(  $commenter['comment_author_email']) .'"size="30" />
         </div>
       </div>',
 
@@ -26,13 +26,10 @@
         'title_reply'=> '',
         'fields' => apply_filters( 'comment_form_default_fields', $fields ),
         'comment_field' =>  '<div class="form-group">
-        <textarea id="comment" placeholder="' . _e( 'Comment', 'pceuropa' ) .'" name="comment" class="form-control"  rows="8" aria-required="true"></textarea></div>',
+        <textarea id="comment" placeholder="' . __( 'Comments') .'" name="comment" class="form-control"  rows="8" aria-required="true"></textarea></div>',
              'comment_notes_after' => ' ');
     
-
-    
-
- if ( have_comments() ) : ?>
+if ( have_comments() ) : ?>
 
 
 
