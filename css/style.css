@@ -10,17 +10,39 @@ body {
 }
 a{color: #1e8ce4;}
 a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
-.nav > li {background-color: #fff;}
-.navbar {min-height: 130px;border: none;}
-.navbar-inverse {background-color: #fff;border: none;padding: 10px 0;}
-.navbar-inverse .navbar-toggle {border-color: #ddd;}
-.navbar-inverse .navbar-toggle {background-color: #333;}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border: none;}
-.navbar-inverse .navbar-nav > a, .navbar-inverse .navbar-nav > a:focus, .navbar-inverse .navbar-nav > a:hover {background-color: #fff;color: #3B3B3B}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {background-color: #fff;color: #3B3B3B}
-.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {color: #241313;}
-.navbar-inverse .navbar-nav > li > a {color: #1e8ce4;}
-.navbar-brand {padding: 0; }
+
+
+.navbar-inverse {
+	background-color: #fff;
+	border: none;
+	padding: 10px 0;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #ddd;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #333;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #fff;
+	color: #3B3B3B
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #241313;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #1e8ce4;
+}
 
 .breadcrumb {padding: 7px 15px;background-color: #f1f5f6;}
 .h1, h1 {font-size: 28px;}
@@ -30,14 +52,10 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 	margin-top: 40px;
 	margin-bottom: 10px;
 }
-@media screen and (max-dsevice-width: 640px){
-	.nav > li {border-bottom: solid 1px #ccc;}
-}
+
 
 .label {padding: .4em .6em;}
-@media screen and (min-width: 1024px){
-	.nav > li {padding:40px 5px}
-}
+
 asside {height: 100%}
 
 @media screen and (min-width: 770px){

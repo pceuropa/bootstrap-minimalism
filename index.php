@@ -1,10 +1,11 @@
 <?php get_header(); ?>
+<?php require_once('nav.php');?>
 
 <div class="container">
 <div class="row row-offcanvas row-offcanvas-right">
 
 <article class="col-xs-12 col-sm-9">
-<?php require_once('nav.php');?>
+
 		<p class="pull-right visible-xs">
 			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar' ); ?> >></span></button>
 		</p>
@@ -29,6 +30,7 @@
 <hr>
 
 </article>
+
 	
 	<asside class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 		<div id="sidebar">
