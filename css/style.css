@@ -9,7 +9,7 @@ body {
 	font: 400 14px/1.8 "Open Sans", sans-serif;
 	color: #666;
 }
-
+html { position: relative; min-height: 100%}
 a{color: #1e8ce4;}
 a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 
@@ -46,6 +46,11 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 	color: #1e8ce4;
 }
 
+.navbar-toggle {
+	margin-right: 0; 
+}
+
+
 .breadcrumb {padding: 7px 15px;background-color: #f1f5f6;}
 .h1, h1 {font-size: 28px;}
 .h2, h2 {font-size: 20px;}
@@ -59,9 +64,8 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 .label {padding: .4em .6em;}
 
 asside {height: 100%}
-
 @media screen and (min-width: 770px){
-	#sidebar { position: fixed;margin-top:45px}
+	#sidebar { position: fixed; margin-top:85px}
 }
 
 .widget_categories .screen-reader-text {
@@ -87,7 +91,12 @@ asside {height: 100%}
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-html { position: relative; min-height: 100%}
+children {
+	margin-left: 30px;
+	padding: 0;
+}
+.padding-left-2 {padding-right: 0}
+.padding-right-2 {padding-right: 0}
 /* * Off Canvas * -------------------------------------------------- */ 
 @media screen and (max-width: 767px) { 
 .row-offcanvas { position: relative; -webkit-transition: all .25s ease-out; -o-transition: all .25s ease-out; transition: all .25s ease-out}
@@ -99,10 +108,7 @@ html { position: relative; min-height: 100%}
 .row-offcanvas-left.active { left: 50%; /* 6 columns */}
 .sidebar-offcanvas { position: absolute; top: 0; width: 80%; /* 6 columns */}
 }
-.children {
-	margin-left: 30px;
-	padding: 0;
-}
+.
 .footer { position: absolute; bottom: 0; width: 100%; /* Set the fixed height of the footer here */ height: 60px; background-color: #f5f5f5}
 .aligncenter, .aligncenter { display: block; margin-left: auto; margin-right: auto}
 .wp-caption {text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 20px; max-width: 96%; padding: 8px}

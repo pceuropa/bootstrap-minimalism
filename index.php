@@ -35,7 +35,7 @@
 </article>
 
 	
-	<asside class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+	<asside class="col-xs-6 col-sm-3 sidebar-offcanvas"  role="navigation">
 		<div id="sidebar">
 		<?php get_sidebar(); ?>
 		</div>

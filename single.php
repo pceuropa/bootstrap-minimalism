@@ -17,13 +17,10 @@
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<h1><?php the_title(); ?></h1>
-
-		<dl class="dl-horizontal">
-			<dt class="text-muted"><?php _e( 'Author'); ?>: </dt><dd><?php the_author(); ?></dd>
-			<dt class="text-muted"><?php _e( 'Published'); ?>:</dt> <dd><time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time></dd>
-			<dt class="text-muted"><?php _e( 'Categories'); ?>:</dt><dd><?php the_category(' &bull; '); ?> </footer></dd>
-			<dt class="text-muted"><?php _e( 'Tags'); ?>:</dt><dd><?php the_tags('',' • ','<br />'); ?> </footer></dd>
-		</dl>
+			<b><?php _e( 'Author'); ?></b>: <?php the_author(); ?> <br/>
+			<b><?php _e( 'Published'); ?></b>:<time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time><br/>
+			<b><?php _e( 'Categories'); ?></b>:<?php the_category(' &bull; '); ?> <br/>
+			<b><?php _e( 'Tags'); ?></b>:<?php the_tags('',' • ','<br />'); ?> <br/>
 
 		<hr />
 		<?php the_content(); ?>
