@@ -1,3 +1,4 @@
+<div class="container">
 <nav class="navbar navbar-inverse ">
     
     <div class="navbar-header">
@@ -24,3 +25,4 @@
 		);
 	?> 
 </nav>
+</div>

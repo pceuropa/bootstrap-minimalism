@@ -6,8 +6,10 @@
  * Based on Bootstrap
 */
 body {
-	font: 400 13px/1.6 "Open Sans", sans-serif;
+	font: 400 14px/1.8 "Open Sans", sans-serif;
+	color: #666;
 }
+
 a{color: #1e8ce4;}
 a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 
