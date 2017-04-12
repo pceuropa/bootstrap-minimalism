@@ -1,14 +1,17 @@
 <?php get_header(); ?>
-<?php require_once('nav.php');?>
 
 <div class="container">
 <div class="row row-offcanvas row-offcanvas-right">
 
 <article class="col-xs-12 col-sm-9">
+<?php require_once('nav.php');?>
 
-		<p class="pull-right visible-xs">
-			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar' ); ?> >></span></button>
-		</p>
+<ol class="breadcrumb">
+  <li><a href="/">PCEUROPA</a></li>
+  <li class="active">Blog</li>
+</ol>
+
+<p class="pull-right visible-xs"><button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><?php _e( 'Sidebar'); ?></button></p>
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<h2><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a><br />

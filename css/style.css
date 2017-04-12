@@ -61,7 +61,7 @@ a:hover, a:focus {color: #0a6ebd;text-decoration: underline;}
 asside {height: 100%}
 
 @media screen and (min-width: 770px){
-	#sidebar { position: fixed;margin-top:30px}
+	#sidebar { position: fixed;margin-top:45px}
 }
 
 .widget_categories .screen-reader-text {
