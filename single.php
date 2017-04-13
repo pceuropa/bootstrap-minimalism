@@ -18,9 +18,9 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<h1><?php the_title(); ?></h1>
 			<b><?php _e( 'Author'); ?></b>: <?php the_author(); ?> <br/>
-			<b><?php _e( 'Published'); ?></b>:<time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time><br/>
-			<b><?php _e( 'Categories'); ?></b>:<?php the_category(' &bull; '); ?> <br/>
-			<b><?php _e( 'Tags'); ?></b>:<?php the_tags('',' • ','<br />'); ?> <br/>
+			<b><?php _e( 'Published'); ?></b>: <time datetime="DD-MM-YYYY hh:mm"><?php the_date('d-m-Y') ?> <?php the_time('G:i') ?></time><br/>
+			<b><?php _e( 'Categories'); ?></b>: <?php the_category(' &bull; '); ?> <br/>
+			<b><?php _e( 'Tags'); ?></b>: <?php the_tags('',' • ','<br />'); ?> <br/>
 
 		<hr />
 		<?php the_content(); ?>

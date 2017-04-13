@@ -19,19 +19,14 @@
 
 
 
-<script src="https://buttons.github.io/buttons.js" /></script>
-
-
 
 <div class="row">
-	<div class="col-md-5"><img class='img-thumbnail' src='<?php echo get_template_directory_uri(); ?>/images/doktorproblem.jpg'></div>
+	<div class="col-md-5"></div>
 	<div class="col-md-6">
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-		<input type="hidden" name="cmd" value="_s-xclick">
-		<input type="hidden" name="hosted_button_id" value="L3ARU95826FXU">
-		<button name="submit" type="submit" class="btn btn-info">Donate <?php _e( 'Author'); ?></button>
-	</form>
-		<a aria-label="Follow @pceuropa on GitHub" data-count-aria-label="# followers on GitHub" data-count-api="/users/pceuropa#followers" data-count-href="/pceuropa/followers" href="https://github.com/pceuropa" class="github-button">Follow @pceuropa</a>
+	
+		
+		
+		
 	<?php if(function_exists("kk_star_ratings")) : echo kk_star_ratings($pid); endif; ?>	
 	
 
@@ -39,6 +34,5 @@
 	
 </div>
 
-<span class="fb-like" data-href="https://www.facebook.com/PCEUROPA/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span>
 
 
